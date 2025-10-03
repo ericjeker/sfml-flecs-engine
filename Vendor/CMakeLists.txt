@@ -38,8 +38,8 @@ FetchContent_Declare(flecs
 FetchContent_MakeAvailable(flecs)
 
 # --- Library creation and linking ---
-add_library(Vendor INTERFACE)
-target_link_libraries(Vendor INTERFACE
+add_library(SFMLFlecsEngineVendor INTERFACE)
+target_link_libraries(SFMLFlecsEngineVendor INTERFACE
         SFML::Graphics
         SFML::Window
         SFML::System
@@ -48,3 +48,6 @@ target_link_libraries(Vendor INTERFACE
         Tracy::TracyClient
         flecs::flecs_static
 )
+
+# Create alias for consistency
+add_library(SFMLFlecsEngine::Vendor ALIAS SFMLFlecsEngineVendor)

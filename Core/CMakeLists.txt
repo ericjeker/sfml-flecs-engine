@@ -10,6 +10,3 @@ target_link_libraries(Core PUBLIC Vendor)
 
 # Enable debug mode if we are in the debug build
 target_compile_definitions(Core PRIVATE $<$<CONFIG:Debug>:DEBUG>)
-
-# Create alias target for modern CMake usage
-add_library(SFMLFlecsEngine::Core ALIAS Core)

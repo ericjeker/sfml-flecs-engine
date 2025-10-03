@@ -2,9 +2,9 @@
 
 #pragma once
 
-#include "Core/Managers/ResourceManager.h"
-#include "Core/Modules/Scene/Components/SceneDepth.h"
-#include "Core/Scenes/Scene.h"
+#include "SFE/Managers/ResourceManager.h"
+#include "SFE/Modules/Scene/Components/SceneDepth.h"
+#include "SFE/Scenes/Scene.h"
 
 #include <memory>
 #include <typeindex>

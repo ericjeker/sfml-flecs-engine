@@ -1,12 +1,12 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Modules/Input/InputModule.h"
+#include "SFE/Modules/Input/InputModule.h"
 
-#include "Core/Modules/Input/Components/CommandQueue.h"
-#include "Core/Modules/Input/Components/PossessedByPlayer.h"
-#include "Core/Modules/Input/Components/Target.h"
-#include "Core/Modules/Input/Singletons/InputBindings.h"
-#include "Core/Modules/Lifetime/Components/LifetimeOneFrame.h"
+#include "SFE/Modules/Input/Components/CommandQueue.h"
+#include "SFE/Modules/Input/Components/PossessedByPlayer.h"
+#include "SFE/Modules/Input/Components/Target.h"
+#include "SFE/Modules/Input/Singletons/InputBindings.h"
+#include "SFE/Modules/Lifetime/Components/LifetimeOneFrame.h"
 
 namespace Core::Modules
 {

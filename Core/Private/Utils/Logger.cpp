@@ -1,6 +1,6 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Utils/Logger.h"
+#include "SFE/Utils/Logger.h"
 
 #include <iostream>
 #include <ostream>

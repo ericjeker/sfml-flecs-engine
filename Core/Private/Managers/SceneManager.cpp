@@ -1,5 +1,5 @@
 // Copyright (c) Eric Jeker 2025.
-#include "Core/Managers/SceneManager.h"
+#include "SFE/Managers/SceneManager.h"
 
 #include <SFML/Graphics/Font.hpp>
 

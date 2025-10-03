@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "Core/Modules/Physics/Components/CollisionInfo.h"
+#include "SFE/Modules/Physics/Components/CollisionInfo.h"
 
 #include <SFML/Graphics/Rect.hpp>
 #include <SFML/System/Vector2.hpp>

@@ -38,8 +38,8 @@ FetchContent_Declare(flecs
 FetchContent_MakeAvailable(flecs)
 
 # --- Library creation and linking ---
-add_library(SFMLFlecsEngineVendor INTERFACE)
-target_link_libraries(SFMLFlecsEngineVendor INTERFACE
+add_library(SFEVendor INTERFACE)
+target_link_libraries(SFEVendor INTERFACE
         SFML::Graphics
         SFML::Window
         SFML::System
@@ -50,4 +50,4 @@ target_link_libraries(SFMLFlecsEngineVendor INTERFACE
 )
 
 # Create alias for consistency
-add_library(SFMLFlecsEngine::Vendor ALIAS SFMLFlecsEngineVendor)
+add_library(SFE::Vendor ALIAS SFEVendor)

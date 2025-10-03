@@ -1,15 +1,15 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Modules/Particles/ParticlesModule.h"
+#include "SFE/Modules/Particles/ParticlesModule.h"
 
-#include "Core/Modules/Lifetime/Components/Lifetime.h"
-#include "Core/Modules/Particles/Components/Particle.h"
-#include "Core/Modules/Particles/Components/ParticleEmitter.h"
-#include "Core/Modules/Particles/Prefabs/Particle.h"
-#include "Core/Modules/Physics/Components/Velocity.h"
-#include "Core/Modules/Render/Components/Transform.h"
-#include "Core/Modules/Render/Components/ZOrder.h"
-#include "Core/Utils/Random.h"
+#include "SFE/Modules/Lifetime/Components/Lifetime.h"
+#include "SFE/Modules/Particles/Components/Particle.h"
+#include "SFE/Modules/Particles/Components/ParticleEmitter.h"
+#include "SFE/Modules/Particles/Prefabs/Particle.h"
+#include "SFE/Modules/Physics/Components/Velocity.h"
+#include "SFE/Modules/Render/Components/Transform.h"
+#include "SFE/Modules/Render/Components/ZOrder.h"
+#include "SFE/Utils/Random.h"
 
 namespace
 {

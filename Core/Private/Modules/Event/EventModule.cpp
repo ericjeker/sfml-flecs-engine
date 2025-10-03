@@ -1,15 +1,15 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Modules/Event/EventModule.h"
+#include "SFE/Modules/Event/EventModule.h"
 
-#include "Core/Modules/Event/Components/EventBindings.h"
-#include "Core/Modules/Input/Components/Command.h"
-#include "Core/Modules/Lifetime/Components/LifetimeOneFrame.h"
-#include "Core/Modules/Scene/Components/SceneDepth.h"
-#include "Core/Modules/Scene/Tags/ScenePaused.h"
-#include "Core/Modules/Scene/Tags/SceneRoot.h"
-#include "Core/Modules/UI/Components/KeyPressed.h"
-#include "Core/Utils/Logger.h"
+#include "SFE/Modules/Event/Components/EventBindings.h"
+#include "SFE/Modules/Input/Components/Command.h"
+#include "SFE/Modules/Lifetime/Components/LifetimeOneFrame.h"
+#include "SFE/Modules/Scene/Components/SceneDepth.h"
+#include "SFE/Modules/Scene/Tags/ScenePaused.h"
+#include "SFE/Modules/Scene/Tags/SceneRoot.h"
+#include "SFE/Modules/UI/Components/KeyPressed.h"
+#include "SFE/Utils/Logger.h"
 
 #include <algorithm>
 #include <ranges>

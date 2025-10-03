@@ -2,8 +2,6 @@
 
 #pragma once
 
-
-
 #include <SFML/Graphics.hpp>
 #include <SFML/System/Vector2.hpp>
 
@@ -15,7 +13,7 @@ namespace Factories
 
 struct SpriteParams
 {
-    std::string textureAsset = nullptr;
+    std::string textureAsset;
     sf::Vector2f origin = {0.f, 0.f};
     sf::Vector2f position = {0.f, 0.f};
     sf::Vector2f scale = {1.f, 1.f};
@@ -29,6 +27,3 @@ struct Sprite
 };
 
 } // namespace Factories
-
-
-

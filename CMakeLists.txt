@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.31...4.1)
-project(SFMLFlecsEngine)
+project(SFE)
 
 # --- CMake Specifications ---
 set(CMAKE_CXX_STANDARD 23)
@@ -22,3 +22,9 @@ endif()
 # --- Add the Vendor and Core subdirectories ---
 add_subdirectory(Vendor)
 add_subdirectory(Core)
+
+# --- Optional: Build example ---
+option(SFE_BUILD_EXAMPLE "Build the example project" ON)
+if(SFE_BUILD_EXAMPLE)
+    add_subdirectory(Example)
+endif()

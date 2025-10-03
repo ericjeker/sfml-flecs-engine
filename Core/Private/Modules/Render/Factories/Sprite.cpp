@@ -1,12 +1,12 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Modules/Render/Factories/Sprite.h"
+#include "SFE/Modules/Render/Factories/Sprite.h"
 
-#include "Core/GameService.h"
-#include "Core/Managers/ResourceManager.h"
-#include "Core/Modules/Render/Components/SpriteRenderable.h"
-#include "Core/Modules/Render/Components/Transform.h"
-#include "Core/Modules/Render/Components/ZOrder.h"
+#include "SFE/GameService.h"
+#include "SFE/Managers/ResourceManager.h"
+#include "SFE/Modules/Render/Components/SpriteRenderable.h"
+#include "SFE/Modules/Render/Components/Transform.h"
+#include "SFE/Modules/Render/Components/ZOrder.h"
 
 
 namespace Factories

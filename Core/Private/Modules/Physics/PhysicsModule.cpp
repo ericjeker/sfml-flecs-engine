@@ -1,24 +1,24 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Modules/Physics/PhysicsModule.h"
+#include "SFE/Modules/Physics/PhysicsModule.h"
 
-#include "Core/GameService.h"
+#include "SFE/GameService.h"
 
-#include "Core/Modules/Physics/Components/Acceleration.h"
-#include "Core/Modules/Physics/Components/ColliderShape.h"
-#include "Core/Modules/Physics/Components/CollisionInfo.h"
-#include "Core/Modules/Physics/Components/Friction.h"
-#include "Core/Modules/Physics/Components/Gravity.h"
-#include "Core/Modules/Physics/Components/Velocity.h"
-#include "Core/Modules/Physics/Singletons/GravitySettings.h"
-#include "Core/Modules/Render/Components/CircleRenderable.h"
-#include "Core/Modules/Render/Components/Origin.h"
-#include "Core/Modules/Render/Components/Radius.h"
-#include "Core/Modules/Render/Components/RectangleRenderable.h"
-#include "Core/Modules/Render/Components/Size.h"
-#include "Core/Modules/Render/Components/Transform.h"
-#include "Core/Modules/Render/Components/ZOrder.h"
-#include "Core/PhysicsConstants.h"
+#include "SFE/Modules/Physics/Components/Acceleration.h"
+#include "SFE/Modules/Physics/Components/ColliderShape.h"
+#include "SFE/Modules/Physics/Components/CollisionInfo.h"
+#include "SFE/Modules/Physics/Components/Friction.h"
+#include "SFE/Modules/Physics/Components/Gravity.h"
+#include "SFE/Modules/Physics/Components/Velocity.h"
+#include "SFE/Modules/Physics/Singletons/GravitySettings.h"
+#include "SFE/Modules/Render/Components/CircleRenderable.h"
+#include "SFE/Modules/Render/Components/Origin.h"
+#include "SFE/Modules/Render/Components/Radius.h"
+#include "SFE/Modules/Render/Components/RectangleRenderable.h"
+#include "SFE/Modules/Render/Components/Size.h"
+#include "SFE/Modules/Render/Components/Transform.h"
+#include "SFE/Modules/Render/Components/ZOrder.h"
+#include "SFE/PhysicsConstants.h"
 
 #include <SFML/Graphics/CircleShape.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>

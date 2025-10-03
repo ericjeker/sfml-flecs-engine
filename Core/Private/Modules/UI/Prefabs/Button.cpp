@@ -1,19 +1,19 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Modules/UI/Prefabs/Button.h"
+#include "SFE/Modules/UI/Prefabs/Button.h"
 
-#include "Core/GameService.h"
-#include "Core/Managers/ResourceManager.h"
-#include "Core/Modules/Render/Components/RectangleRenderable.h"
-#include "Core/Modules/Render/Components/Size.h"
-#include "Core/Modules/Render/Components/TextRenderable.h"
-#include "Core/Modules/Render/Components/Transform.h"
-#include "Core/Modules/Render/Components/ZOrder.h"
-#include "Core/Modules/UI/Components/ButtonBackground.h"
-#include "Core/Modules/UI/Components/ButtonText.h"
-#include "Core/Modules/UI/Components/Clickable.h"
-#include "Core/Modules/UI/Components/Interactable.h"
-#include "Core/Modules/Window/Components/Event.h"
+#include "SFE/GameService.h"
+#include "SFE/Managers/ResourceManager.h"
+#include "SFE/Modules/Render/Components/RectangleRenderable.h"
+#include "SFE/Modules/Render/Components/Size.h"
+#include "SFE/Modules/Render/Components/TextRenderable.h"
+#include "SFE/Modules/Render/Components/Transform.h"
+#include "SFE/Modules/Render/Components/ZOrder.h"
+#include "SFE/Modules/UI/Components/ButtonBackground.h"
+#include "SFE/Modules/UI/Components/ButtonText.h"
+#include "SFE/Modules/UI/Components/Clickable.h"
+#include "SFE/Modules/UI/Components/Interactable.h"
+#include "SFE/Modules/Window/Components/Event.h"
 
 
 namespace Prefabs

@@ -1,18 +1,18 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Modules/Render/RenderModule.h"
+#include "SFE/Modules/Render/RenderModule.h"
 
-#include "Core/GameService.h"
+#include "SFE/GameService.h"
 
-#include "Core/Modules/Particles/Components/Particle.h"
-#include "Core/Modules/Render/Components/CircleRenderable.h"
-#include "Core/Modules/Render/Components/RectangleRenderable.h"
-#include "Core/Modules/Render/Components/ShaderUniform.h"
-#include "Core/Modules/Render/Components/ShaderUniforms.h"
-#include "Core/Modules/Render/Components/SpriteRenderable.h"
-#include "Core/Modules/Render/Components/TextRenderable.h"
-#include "Core/Modules/Render/Components/Transform.h"
-#include "Core/Modules/Render/Components/ZOrder.h"
+#include "SFE/Modules/Particles/Components/Particle.h"
+#include "SFE/Modules/Render/Components/CircleRenderable.h"
+#include "SFE/Modules/Render/Components/RectangleRenderable.h"
+#include "SFE/Modules/Render/Components/ShaderUniform.h"
+#include "SFE/Modules/Render/Components/ShaderUniforms.h"
+#include "SFE/Modules/Render/Components/SpriteRenderable.h"
+#include "SFE/Modules/Render/Components/TextRenderable.h"
+#include "SFE/Modules/Render/Components/Transform.h"
+#include "SFE/Modules/Render/Components/ZOrder.h"
 
 #include <SFML/Graphics/RenderWindow.hpp>
 

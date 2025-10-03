@@ -1,12 +1,12 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Modules/Render/Factories/Circle.h"
+#include "SFE/Modules/Render/Factories/Circle.h"
 
-#include "Core/Modules/Render/Components/CircleRenderable.h"
-#include "Core/Modules/Render/Components/Origin.h"
-#include "Core/Modules/Render/Components/Radius.h"
-#include "Core/Modules/Render/Components/Transform.h"
-#include "Core/Modules/Render/Components/ZOrder.h"
+#include "SFE/Modules/Render/Components/CircleRenderable.h"
+#include "SFE/Modules/Render/Components/Origin.h"
+#include "SFE/Modules/Render/Components/Radius.h"
+#include "SFE/Modules/Render/Components/Transform.h"
+#include "SFE/Modules/Render/Components/ZOrder.h"
 
 namespace Factories
 {

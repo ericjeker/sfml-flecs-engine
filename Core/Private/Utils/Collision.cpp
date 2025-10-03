@@ -1,6 +1,6 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Utils/Collision.h"
+#include "SFE/Utils/Collision.h"
 
 #include <algorithm>
 #include <tracy/Tracy.hpp>

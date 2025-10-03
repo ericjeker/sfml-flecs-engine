@@ -1,9 +1,9 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Scenes/Scene.h"
+#include "SFE/Scenes/Scene.h"
 
-#include "Core/GameService.h"
-#include "Core/Modules/Scene/Tags/SceneRoot.h"
+#include "SFE/GameService.h"
+#include "SFE/Modules/Scene/Tags/SceneRoot.h"
 
 Scene::Scene(flecs::world& world)
     : _world(world)

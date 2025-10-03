@@ -1,6 +1,6 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/GameStates/GameState.h"
+#include "SFE/GameStates/GameState.h"
 
 
 GameState::GameState(flecs::world& world)

@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "Core/Utils/Logger.h"
+#include "SFE/Utils/Logger.h"
 
 #include <SFML/Audio.hpp>
 #include <SFML/Graphics.hpp>

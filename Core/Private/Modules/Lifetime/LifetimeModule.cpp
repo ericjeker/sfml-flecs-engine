@@ -1,9 +1,9 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Modules/Lifetime/LifetimeModule.h"
+#include "SFE/Modules/Lifetime/LifetimeModule.h"
 
-#include "Core/Modules/Lifetime/Components/Lifetime.h"
-#include "Core/Modules/Lifetime/Components/LifetimeOneFrame.h"
+#include "SFE/Modules/Lifetime/Components/Lifetime.h"
+#include "SFE/Modules/Lifetime/Components/LifetimeOneFrame.h"
 
 namespace
 {

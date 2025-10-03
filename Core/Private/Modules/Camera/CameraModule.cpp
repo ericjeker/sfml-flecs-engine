@@ -1,14 +1,14 @@
 // Copyright (c) Eric Jeker 2025.
 
-#include "Core/Modules/Camera/CameraModule.h"
+#include "SFE/Modules/Camera/CameraModule.h"
 
-#include "Core/GameService.h"
-#include "Core/Modules/Camera/Components/CameraShake.h"
-#include "Core/Modules/Camera/Components/CameraShakeIntent.h"
-#include "Core/Modules/Camera/Singletons/MainCamera.h"
-#include "Core/Modules/Window/Components/WindowResizeIntent.h"
-#include "Core/Modules/Window/Singletons/WindowSize.h"
-#include "Core/Utils/Logger.h"
+#include "SFE/GameService.h"
+#include "SFE/Modules/Camera/Components/CameraShake.h"
+#include "SFE/Modules/Camera/Components/CameraShakeIntent.h"
+#include "SFE/Modules/Camera/Singletons/MainCamera.h"
+#include "SFE/Modules/Window/Components/WindowResizeIntent.h"
+#include "SFE/Modules/Window/Singletons/WindowSize.h"
+#include "SFE/Utils/Logger.h"
 
 #include <SFML/Graphics/RenderWindow.hpp>
 

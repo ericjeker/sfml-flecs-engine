@@ -6,7 +6,7 @@
 
 struct CircleRenderable
 {
-    sf::CircleShape shape;
+    sf::CircleShape shape = sf::CircleShape(10.0f);
 };
 
 
